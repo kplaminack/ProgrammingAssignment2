@@ -26,17 +26,6 @@ cacheSolve <- function(x, ...) {
 }
 
 
-m1 <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
-m1
-
-
-I2 <- matrix(c(1,0,0,1), nrow = 2, ncol = 2)
-I2
-
-
-
-
-
 
 
 
