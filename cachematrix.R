@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {     	#creates a matrix
 
 cacheSolve <- function(x, ...) {				
         i <- x$getinverse()					#retrieves the inverse from makeCacheMatrix
-        if(!is.null(m)) {					#if value is null, matrix is new; else, it's inverse is cached
+        if(!is.null(i)) {					#if value is null, matrix is new; else, it's inverse is cached
                 message("getting cached data")
                 return(i)
         }
